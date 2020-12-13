@@ -8,11 +8,28 @@
       href="./images/NovusTerraLogo.png"
       type="image/x-icon"
     />
-    <title>Document</title>
+    <title>Form Input Wave</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+      <h1>Please Login</h1>
+      <form>
+        <div class="form-control">
+          <input type="text" name="email" id="email" required />
+          <label for="email">Email</label>
+        </div>
+        <div class="form-control">
+          <input type="password" name="password" id="password" />
+          <label for="password">Password</label>
+        </div>
+        <button class="btn">Login</button>
+        <p class="text">
+          Don't have an account?
+          <a href="#" target="_blank" rel="noopener noreferrer">Register</a>
+        </p>
+      </form>
+    </div>
     <!-- Scripts -->
     <script src="./js/script.js"></script>
   </body>
